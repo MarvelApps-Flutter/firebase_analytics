@@ -115,7 +115,33 @@ class _AddTaskScreenState extends State<AddTaskScreen>
   @override
   Widget build(BuildContext context) {
     appC = AppConfig(context);
-    return Scaffold(backgroundColor: Colors.white, body: buildBody());
+    return Scaffold(backgroundColor: Colors.white,
+    appBar: buildAppBar(),
+     body: buildBody());
+  }
+
+  AppBar buildAppBar() {
+    return AppBar(
+      backgroundColor: Colors.white,
+      elevation: 0.0,
+      centerTitle: true,
+      title: Text(
+          (widget.isViewMode) == true
+              ? AppConstants.bigViewTaskString
+              : (widget.isViewMode == false && widget.taskKey != null)
+                  ? AppConstants.bigEditTaskString
+                  : AppConstants.bigCreateTaskString,
+          style: AppTextStyles.blackTextStyle),
+      leading: IconButton(
+        padding: const EdgeInsets.only(left: 10),
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        icon: const Icon(Icons.arrow_back_ios),
+        iconSize: 20,
+        color: Colors.black,
+      ),
+    );
   }
 
   Widget buildBody() {
@@ -124,13 +150,13 @@ class _AddTaskScreenState extends State<AddTaskScreen>
         child: Form(
           key: formGlobalKey,
           child: Padding(
-            padding: const EdgeInsets.all(12.0),
+           padding: const EdgeInsets.only(left: 12.0, right: 12),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  height: appC.rH(26),
-                  width: appC.rW(60),
+                  height: appC.rH(22),
+                          width: appC.rW(50),
                   decoration: const BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage(AppConstants.headerAssetImageString),
@@ -139,14 +165,6 @@ class _AddTaskScreenState extends State<AddTaskScreen>
                   ),
                 ),
                 buildSizedBoxWidget(10),
-                Text(
-                    (widget.isViewMode) == true
-                        ? AppConstants.bigViewTaskString
-                        : (widget.isViewMode == false && widget.taskKey != null)
-                            ? AppConstants.bigEditTaskString
-                            : AppConstants.bigCreateTaskString,
-                    style: AppTextStyles.blackTextStyle),
-                buildSizedBoxWidget(13),
                 const Text(
                   AppConstants.enterDetailsString,
                   style: AppTextStyles.lightTextStyle,
