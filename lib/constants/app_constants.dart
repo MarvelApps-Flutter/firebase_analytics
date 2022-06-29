@@ -48,4 +48,10 @@ class AppConstants
   static const separatedAddTaskString = "Add Task";
   static const jointAddTaskString = "AddTask";
   static const robotoTextStyleString = "Roboto";
+  static const String successiveLogo = "assets/images/successive_logo.png";
+  static const String marvelLogo = "assets/images/marvel_logo.png";
+  static const String poweredBy = "Powered by :";
+  static const String successive = "Successive";
+  static const String technologies = "Technologies";
+  static const String apps = "APPS";
 }

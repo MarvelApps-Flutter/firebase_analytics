@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "707744483232",
+    "firebase_url": "https://realtime-demo-a5562-default-rtdb.firebaseio.com",
     "project_id": "realtime-demo-a5562",
     "storage_bucket": "realtime-demo-a5562.appspot.com"
   },
@@ -37,6 +38,13 @@
             {
               "client_id": "707744483232-p47ld75u0c55cpt08fek53e9soq7r8f6.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "707744483232-9o6l5tp0rkg8i54b647epqq9n9om43pb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.realtimeDatabaseApp"
+              }
             }
           ]
         }

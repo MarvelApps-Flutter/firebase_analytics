@@ -7,6 +7,7 @@ import 'package:realtime_database_app/constants/app_constants.dart';
 import 'package:realtime_database_app/screens/home_screen.dart';
 
 import 'firebase_options.dart';
+import 'screens/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,10 +36,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreenPage(
-        analytics: analytics,
-        observer: observer,
-      ),
+      home: SplashScreen()
+      
+      // HomeScreenPage(
+      //   analytics: analytics,
+      //   observer: observer,
+      // ),
     );
   }
 }
