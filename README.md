@@ -1,5 +1,8 @@
-# Flutter Firebase Realtime Database
-A new flutter app for demonstrating Firebase Realtime Database CRUD Operations
+# Flutter Firebase Analytics
+A new flutter app for demonstrating Firebase Analytics
+
+# Demo
+<img src="https://github.com/MarvelApps-Flutter/flutter_firebase_realtime_database/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
 
 # Android Screenshots
 
