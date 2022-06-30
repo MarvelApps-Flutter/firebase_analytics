@@ -53,15 +53,12 @@ A new flutter app for demonstrating Firebase Analytics
      <td align="center" valign="center">Delete Task</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/MarvelApps-Flutter/firebase_analytics
-/blob/dev/screenshots/ios/ios4.png" height="480px"></td>
-    <td><img src="https://github.com/MarvelApps-Flutter/firebase_analytics
-/blob/dev/screenshots/ios/ios5.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/firebase_analytics/blob/dev/screenshots/ios/ios4.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/firebase_analytics/blob/dev/screenshots/ios/ios5.png" height="480px"></td>
   </tr>
  </table>
  
  # Firebase Analytics Analysis Report
  
-<img src="https://github.com/MarvelApps-Flutter/firebase_analytics
-/blob/dev/screenshots/analysis/analysis.png" height="800px" width="850px"></td>
+<img src="https://github.com/MarvelApps-Flutter/firebase_analytics/blob/dev/screenshots/analysis/analysis.png" height="600px" width="850px"></td>
 
