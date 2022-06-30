@@ -57,3 +57,8 @@ A new flutter app for demonstrating Firebase Analytics
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_firebase_realtime_database/blob/dev/screenshots/ios/ios5.png" height="480px"></td>
   </tr>
  </table>
+ 
+ # Firebase Analytics Analysis Report
+ 
+<img src="https://github.com/MarvelApps-Flutter/flutter_firebase_realtime_database/blob/dev/screenshots/analysis/analysis.png" height="600px" width="700px"></td>
+
